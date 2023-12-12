@@ -13,7 +13,7 @@ new standalone_1.Ignitor(__dirname).httpServer().start();
 exports.handler = async (event) => {
     const response = {
       statusCode: 200,
-      body: JSON.stringify("2 Hello from Lambda and Github!"),
+      body: JSON.stringify("3 Hello from Lambda and Github!"),
     }
     return response
   }
