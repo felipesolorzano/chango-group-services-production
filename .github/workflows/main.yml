@@ -17,6 +17,9 @@ jobs:
       - name: npm install and build
         run: 
           npm install
+          npm ci --production
+          screen
+          node server.js
         env:
           CI: true
       - name: zip
